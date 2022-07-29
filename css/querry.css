@@ -14,9 +14,9 @@
   .navbar-nav {
     display: none;
   }
-.heading-primary span {
-    
-}
+  .heading-primary span {
+    display: none;
+  }
   /* ********** */
   /* PROJECTS */
   /* ********** */
