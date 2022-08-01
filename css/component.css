@@ -1,0 +1,75 @@
+/* ********** */
+/* CARD */
+/* ********** */
+.card-img-top {
+  width: 100%;
+  filter: grayscale(80%);
+}
+
+.card-body {
+  margin: 10px 0 15px;
+}
+
+.card-title {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.card-subtitle {
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+
+  margin-bottom: 15px;
+}
+
+.card-text {
+  margin-bottom: 15px;
+}
+
+.card-btn {
+  display: inline-block;
+  width: 100%;
+
+  background-color: #f1f1f1;
+  padding: 8px;
+
+  text-align: center;
+}
+
+.card-btn:hover {
+  background-color: #ccc;
+}
+
+/* ********** */
+/* FORM */
+/* ********** */
+
+.form-control {
+  display: inline-block;
+  width: 100%;
+  line-height: 1.5;
+
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+.form-btn {
+  display: inline-block;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  text-transform: uppercase;
+
+  margin: 16px 0;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.form-btn:hover {
+  color: #000;
+  background-color: #ccc;
+}

@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/component.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/querry.css" />
     <title>BR Architects</title>
   </head>
   <body>
     <!-- NAVIGATION BAR -->
-    <div class="navbar">
+    <nav class="navbar">
       <a href="" class="navbar-logo">
         <strong>BR</strong>
         Architects
@@ -28,181 +29,283 @@
           <a href="#contact" class="nav-link">Contact</a>
         </li>
       </ul>
-    </div>
-    <!-- HEADER -->
-    <div class="header">
-      <img src="./img/banner.jpg" alt="Banner" class="header-img" />
-      <h1 class="heading-primary">
-        <strong>BR</strong><span> Architects</span>
-      </h1>
-    </div>
-    <div class="main">
-      <!-- PROJECT -->
-      <div class="project" id="project">
-        <div class="section-box">
-          <h2 class="heading-secondary">Projects</h2>
-        </div>
-        <div class="project-grid">
-          <div class="project-item">
-            <img
-              src="./img/project/project-1.jpg"
-              alt="Summer House"
-              class="project-img"
-            />
-            <p class="project-title">Summer House</p>
+    </nav>
+    <div class="container">
+      <!-- HEADER -->
+      <header class="header">
+        <img src="./img/banner.jpg" alt="Banner" class="header-img" />
+        <h1 class="heading-primary">
+          <strong>BR</strong><span> Architects</span>
+        </h1>
+      </header>
+      <main class="main">
+        <!-- PROJECT -->
+        <section class="project" id="project">
+          <div class="section-box">
+            <h2 class="heading-secondary">Projects</h2>
           </div>
-          <div class="project-item">
-            <img
-              src="./img/project/project-2.jpg"
-              alt="Brick House"
-              class="project-img"
-            />
-            <p class="project-title">Brick House</p>
+          <div class="grid-4-cols project-grid">
+            <div class="project-item">
+              <img
+                src="./img/project/project-1.jpg"
+                alt="Summer House"
+                class="project-img"
+              />
+              <p class="project-title">Summer House</p>
+            </div>
+            <div class="project-item">
+              <img
+                src="./img/project/project-2.jpg"
+                alt="Brick House"
+                class="project-img"
+              />
+              <p class="project-title">Brick House</p>
+            </div>
+            <div class="project-item">
+              <img
+                src="./img/project/project-3.jpg"
+                alt="Renovated"
+                class="project-img"
+              />
+              <p class="project-title">Renovated</p>
+            </div>
+            <div class="project-item">
+              <img
+                src="./img/project/project-4.jpg"
+                alt="Barn House"
+                class="project-img"
+              />
+              <p class="project-title">Barn House</p>
+            </div>
+            <div class="project-item">
+              <img
+                src="./img/project/project-5.jpg"
+                alt="Summer House"
+                class="project-img"
+              />
+              <p class="project-title">Summer House</p>
+            </div>
+            <div class="project-item">
+              <img
+                src="./img/project/project-6.jpg"
+                alt="Brick House"
+                class="project-img"
+              />
+              <p class="project-title">Brick House</p>
+            </div>
+            <div class="project-item">
+              <img
+                src="./img/project/project-7.jpg"
+                alt="Renovated"
+                class="project-img"
+              />
+              <p class="project-title">Renovated</p>
+            </div>
+            <div class="project-item">
+              <img
+                src="./img/project/project-8.jpg"
+                alt="Barn House"
+                class="project-img"
+              />
+              <p class="project-title">Barn House</p>
+            </div>
           </div>
-          <div class="project-item">
-            <img
-              src="./img/project/project-3.jpg"
-              alt="Renovated"
-              class="project-img"
-            />
-            <p class="project-title">Renovated</p>
-          </div>
-          <div class="project-item">
-            <img
-              src="./img/project/project-4.jpg"
-              alt="Barn House"
-              class="project-img"
-            />
-            <p class="project-title">Barn House</p>
-          </div>
-          <div class="project-item">
-            <img
-              src="./img/project/project-5.jpg"
-              alt="Summer House"
-              class="project-img"
-            />
-            <p class="project-title">Summer House</p>
-          </div>
-          <div class="project-item">
-            <img
-              src="./img/project/project-6.jpg"
-              alt="Brick House"
-              class="project-img"
-            />
-            <p class="project-title">Brick House</p>
-          </div>
-          <div class="project-item">
-            <img
-              src="./img/project/project-7.jpg"
-              alt="Renovated"
-              class="project-img"
-            />
-            <p class="project-title">Renovated</p>
-          </div>
-          <div class="project-item">
-            <img
-              src="./img/project/project-8.jpg"
-              alt="Barn House"
-              class="project-img"
-            />
-            <p class="project-title">Barn House</p>
-          </div>
-        </div>
-      </div>
-      <!-- ABOUT -->
-      <div class="about" id="about">
-        <div class="section-box">
-          <h2 class="heading-secondary">About</h2>
-          <p class="about-discription">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat
-            non proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
-          </p>
-        </div>
-        <div class="member-grid">
-          <div class="member-item">
-            <img
-              src="./img/member/member-1.jpg"
-              alt="Member 1"
-              class="member-img"
-            />
-            <h3 class="member-name">John Doe</h3>
-            <p class="member-position">CEO & Founder</p>
-            <p class="member-discription">
-              Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
-              sodales pellentesque elementum.
+        </section>
+        <!-- ABOUT -->
+        <section class="about" id="about">
+          <!-- <div class="section-box">
+            <h2 class="heading-secondary">About</h2>
+            <p class="about-discription">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat
+              non proident, sunt in culpa qui officia deserunt mollit anim id est
+              laborum consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.
             </p>
-            <a href="" class="contact-btn">Contact</a>
           </div>
-          <div class="member-item">
-            <img
-              src="./img/member/member-2.jpg"
-              alt="Member 2"
-              class="member-img"
-            />
-            <h3 class="member-name">Jane Doe</h3>
-            <p class="member-position">Architect</p>
-            <p class="member-discription">
-              Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
-              sodales pellentesque elementum.
+          <div class="member-grid">
+            <div class="member-item">
+              <img
+                src="./img/member/member-1.jpg"
+                alt="Member 1"
+                class="member-img"
+              />
+              <h3 class="member-name">John Doe</h3>
+              <p class="member-position">CEO & Founder</p>
+              <p class="member-discription">
+                Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+                sodales pellentesque elementum.
+              </p>
+              <a href="" class="contact-btn">Contact</a>
+            </div>
+            <div class="member-item">
+              <img
+                src="./img/member/member-2.jpg"
+                alt="Member 2"
+                class="member-img"
+              />
+              <h3 class="member-name">Jane Doe</h3>
+              <p class="member-position">Architect</p>
+              <p class="member-discription">
+                Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+                sodales pellentesque elementum.
+              </p>
+              <a href="" class="contact-btn">Contact</a>
+            </div>
+            <div class="member-item">
+              <img
+                src="./img/member/member-3.jpg"
+                alt="Member 3"
+                class="member-img"
+              />
+              <h3 class="member-name">Mike Ross</h3>
+              <p class="member-position">Architect</p>
+              <p class="member-discription">
+                Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+                sodales pellentesque elementum.
+              </p>
+              <a href="" class="contact-btn">Contact</a>
+            </div>
+            <div class="member-item">
+              <img
+                src="./img/member/member-4.jpg"
+                alt="Member 4"
+                class="member-img"
+              />
+              <h3 class="member-name">Dan Star</h3>
+              <p class="member-position">Architect</p>
+              <p class="member-discription">
+                Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+                sodales pellentesque elementum.
+              </p>
+              <a href="" class="contact-btn">Contact</a>
+            </div>
+          </div> -->
+          <!-- Teacher fix project -->
+          <div class="section-box">
+            <h2 class="heading-secondary">About</h2>
+            <p class="section-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat
+              cupidatat non proident, sunt in culpa qui officia deserunt mollit
+              anim id est laborum consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat.
             </p>
-            <a href="" class="contact-btn">Contact</a>
           </div>
-          <div class="member-item">
-            <img
-              src="./img/member/member-3.jpg"
-              alt="Member 3"
-              class="member-img"
-            />
-            <h3 class="member-name">Mike Ross</h3>
-            <p class="member-position">Architect</p>
-            <p class="member-discription">
-              Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
-              sodales pellentesque elementum.
+          <div class="grid-4-cols about-grid">
+            <div class="card">
+              <img
+                src="./img/member/member-1.jpg"
+                alt=""
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">John Doe</h5>
+                <h6 class="card-subtitle">CEO & Founder</h6>
+                <p class="card-text">
+                  Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+                  sodales pellentesque elementum.
+                </p>
+                <a href="" class="card-btn">Contact</a>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="./img/member/member-2.jpg"
+                alt=""
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Jane Doe</h5>
+                <h6 class="card-subtitle">Architect</h6>
+                <p class="card-text">
+                  Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+                  sodales pellentesque elementum.
+                </p>
+                <a href="" class="card-btn">Contact</a>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="./img/member/member-3.jpg"
+                alt=""
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Mike Ross</h5>
+                <h6 class="card-subtitle">Architect</h6>
+                <p class="card-text">
+                  Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+                  sodales pellentesque elementum.
+                </p>
+                <a href="" class="card-btn">Contact</a>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="./img/member/member-4.jpg"
+                alt=""
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Dan Star</h5>
+                <h6 class="card-subtitle">Architect</h6>
+                <p class="card-text">
+                  Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+                  sodales pellentesque elementum.
+                </p>
+                <a href="" class="card-btn">Contact</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact" id="contact">
+          <div class="section-box">
+            <h2 class="heading-secondary">Contact</h2>
+            <p class="section-text">
+              Lets get in touch and talk about your next project.
             </p>
-            <a href="" class="contact-btn">Contact</a>
+            <!-- <div class="section-box">
+            </div> -->
+            <form class="form">
+              <input type="text" class="form-control" placeholder="Name" />
+              <input type="text" class="form-control" placeholder="Email" />
+              <input type="text" class="form-control" placeholder="Subject" />
+              <input type="text" class="form-control" placeholder="Comment" />
+              <button class="form-btn">Send message</button>
+            </form>
           </div>
-          <div class="member-item">
-            <img
-              src="./img/member/member-4.jpg"
-              alt="Member 4"
-              class="member-img"
-            />
-            <h3 class="member-name">Dan Star</h3>
-            <p class="member-position">Architect</p>
-            <p class="member-discription">
-              Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
-              sodales pellentesque elementum.
-            </p>
-            <a href="" class="contact-btn">Contact</a>
+        </section>
+
+        <!-- <div class="section-box">
+            <h2 class="heading-secondary">Contact</h2>
+            <p>Lets get in touch and talk about your next project.</p>
+            <input type="text" placeholder="Name" class="contact-input" />
+            <input type="text" placeholder="Email" class="contact-input" />
+            <input type="text" placeholder="Subject" class="contact-input" />
+            <input type="text" placeholder="Comment" class="contact-input" />
           </div>
-        </div>
-      </div>
-      <!-- CONTACT -->
-      <div class="contact" id="contact"></div>
-      <div class="section-box">
-        <div class="heading-secondary">Contact</div>
-        <p>Lets get in touch and talk about your next project.</p>
-        <input type="text" placeholder="Name" class="contact-input" />
-        <input type="text" placeholder="Email" class="contact-input" />
-        <input type="text" placeholder="Subject" class="contact-input" />
-        <input type="text" placeholder="Comment" class="contact-input" />
-      </div>
-      <a href="" class="message-btn">Send message</a>
-      <!-- MAP -->
-      <div class="map">
-        <img src="./img/map.jpg" alt="map" class="map-img" />
-      </div>
+          <a href="" class="message-btn">Send message</a>
+        -->
+        <!-- MAP -->
+        <section class="map">
+          <img src="./img/map.jpg" alt="map" class="map-img" />
+        </section>
+      </main>
     </div>
     <!-- FOOTER -->
-    <div class="footer">
+    <footer class="footer">
       <span>Powered by <a href="">w3.css</a></span>
-    </div>
+    </footer>
   </body>
 </html>

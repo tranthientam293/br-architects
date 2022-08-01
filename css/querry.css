@@ -1,8 +1,8 @@
 @media (max-width: 992px) {
   /* ********** */
-  /* PROJECTS */
+  /* LAYOUT */
   /* ********** */
-  .project-grid {
+  .grid-4-cols {
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -18,9 +18,9 @@
     display: none;
   }
   /* ********** */
-  /* PROJECTS */
+  /* LAYOUT */
   /* ********** */
-  .project-grid {
+  .grid-4-cols {
     grid-template-columns: 1fr;
   }
 }

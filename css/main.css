@@ -19,6 +19,8 @@
 .nav-link {
   display: inline-block;
   letter-spacing: 4px;
+  text-transform: capitalize;
+
   padding: 8px 16px;
 }
 
@@ -87,11 +89,12 @@
 
 .header {
   position: relative;
-  top: 0;
+  /* top: 0;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%); */
+  /* margin: 0 auto;
 
-  width: 1500px;
+  max-width: 1500px; */
 }
 
 .header-img {
@@ -101,14 +104,11 @@
 /* ********** */
 /* PROJECTS */
 /* ********** */
-.project {
-}
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
 
-  padding: 0 16px 8px;
+.project-grid,
+.about-grid {
+  padding: 0 16px;
+  margin-bottom: 16px;
 }
 
 .project-item {
@@ -159,7 +159,17 @@
 /* ********** */
 /* ABOUT */
 /* ********** */
-.member-grid {
+
+/* .about-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+
+  padding: 0 16px;
+  margin-bottom: 16px;
+} */
+
+/* .member-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
@@ -196,12 +206,16 @@
   background-color: #f1f1f1;
 
   padding: 8px 16px;
-}
+} */
 
 /* ********** */
 /* CONTACT */
 /* ********** */
-.contact-input:last-child {
+
+/* .contact p {
+  margin: 15px 0;
+} */
+/* .contact-input:last-child {
   margin: 0;
 }
 
@@ -219,13 +233,14 @@
 .message-btn:hover {
   background-color: #ccc;
   color: #000;
-}
+} */
 
 /* ********** */
 /* MAP */
 /* ********** */
+
 .map {
-  padding: 32px 16px 0;
+  padding: 0 16px;
 }
 .map-img {
   width: 100%;
@@ -243,4 +258,8 @@
 
 .footer a {
   text-decoration: underline;
+}
+
+.footer a:hover {
+  color: green;
 }
